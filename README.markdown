@@ -1,4 +1,4 @@
-# Convertidor de Jupyter Notebook a Texto Plano
+# Convertidor de Jupyter Notebook a Texto (.txt)
 
 ## Descripción
 Este proyecto contiene un script de Python que convierte un archivo Jupyter Notebook (.ipynb) en un archivo de texto plano (.txt). El script extrae el contenido de las celdas de tipo "markdown" y "code" del notebook y lo guarda en un archivo de texto, separando cada celda con dobles saltos de línea para facilitar la lectura. 
@@ -12,15 +12,12 @@ Esta herramienta es útil para:
 ## Uso
 1. Coloca el archivo Jupyter Notebook que deseas convertir (por ejemplo, `Matrices.ipynb`) en el mismo directorio que el script.
 2. Ejecuta el script:
-   ```bash
-   python convert_notebook.py
-   ```
 3. El archivo de salida (por ejemplo, `pregunta3.txt`) se generará automáticamente en el mismo directorio.
 
 **Nota:** El script está configurado para convertir específicamente `Matrices.ipynb` a `pregunta3.txt`. Para convertir un notebook diferente, modifica las variables `ipynb_file_path` y `txt_output_path` al inicio del script.
 
 ## Estructura de Archivos
-- **`convert_notebook.py`**: Script principal que realiza la conversión del notebook a texto plano.
+- **`convert_notebook.ipynb`**: Script principal que realiza la conversión del notebook a texto plano.
 - **`Matrices.ipynb`**: Archivo de ejemplo de Jupyter Notebook (debe proporcionarse por el usuario).
 - **`pregunta3.txt`**: Archivo de salida generado con el contenido extraído.
 - **`README.md`**: Documentación del proyecto (este archivo).
